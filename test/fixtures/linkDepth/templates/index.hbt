@@ -1,0 +1,19 @@
+<html>
+<body>
+<ul>
+  {{#each prismic.macaron.results}}
+    <li>
+        {{{data.name.html}}}
+        <div class="related">
+          {{{data.related.document.data.name.html}}}
+          {{{data.related.html}}}
+        </div>
+        <div class="doubly-related">
+          {{{data.related.document.data.related.document.data.name.html}}}
+          {{{data.related.document.data.related.html}}}
+        </div>
+    </li>
+  {{/each}}
+</ul>
+</body>
+</html>

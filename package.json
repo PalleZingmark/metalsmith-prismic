@@ -26,6 +26,7 @@
     "clone": "^1.0.2",
     "debug": "^2.2.0",
     "prismic.io": "1.4.0",
+    "promise": "^7.1.1",
     "underscore": "^1.8.3"
   },
   "devDependencies": {
